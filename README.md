@@ -16,6 +16,7 @@
 | Thrust (Up)  | `Space`          | `Right Trigger`       |
 | Move Left    | `A` / `←`        | Left of Left Stick    |
 | Move Right   | `D` / `→`        | Right of Left Stick   |
+| Exit Game    | `Escape`         | –                     |
 
 > Movement is 2D (left, right, up), but the world is rendered in 3D.
 
@@ -53,11 +54,32 @@ https://github.com/user-attachments/assets/826d84a0-6123-4a25-a8df-ad76553763a7
    - `File > Build Settings > Build` to generate a playable `.exe`.
 
 ## 📦 Builds
-You can find the latest `.exe` build of the game in the [**Builds**](./Builds) folder (if available).
+You can find the latest `.exe` build of the game in the [**Builds**](./Builds.zip).
 To run the game:
 
 - Unzip the folder.
 - Open the `.exe` file.
+
+> ⚠️ **Note**: You might see a warning from **Windows Defender SmartScreen** like  
+> *"Windows protected your PC"*.  
+> This happens because the app is not signed with a verified certificate (common for indie devs).
+>
+> To run the game anyway:
+> - Click **More info**
+> - Then click **Run anyway**
+
+### 🐢 Performance Note
+You may experience some lag while running the `.exe`:
+- The build is not yet fully optimized.
+- The game runs with a fixed resolution and no graphic settings.
+- Defender sandboxing or lower-end hardware can also affect performance.
+
+> 💡 **Tip**:  
+> For the smoothest experience, it's recommended to **open the project in Unity and build it yourself**, especially if you're using a development machine or want better performance.
+> 
+> This also ensures Unity optimizes the build for your system configuration.
+
+Improvements will be made in future updates.
 
 ## 🪐 License
 - This project is licensed under the [MIT License](LICENSE).
