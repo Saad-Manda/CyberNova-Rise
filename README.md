@@ -37,8 +37,7 @@
 
 ## 📽️ Preview
 
-https://github.com/Saad-Manda/Rocket-Booster/assets/1234567890/rocket_boost_preview.mp4  
-*(Replace with the actual GitHub-hosted video link once uploaded to the repo)*
+[https://github.com/Saad-Manda/Rocket-Booster/blob/f4959a80290613316707f82177d38f6c6be21f3c/Rocket_Boost_compressed.mp4]
 
 ---
 
