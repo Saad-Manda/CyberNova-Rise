@@ -38,7 +38,7 @@
 
 ## 📽️ Preview
 
-https://github.com/user-attachments/assets/826d84a0-6123-4a25-a8df-ad76553763a7
+https://github.com/user-attachments/assets/061d1a75-7803-4bba-a71d-d16a7d5b9220
 
 ---
 
