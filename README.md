@@ -1,6 +1,6 @@
-# 🚀 Rocket Booster
+# 🚀 CyberNova Rise
 
-**Rocket Booster** is a 3D Unity-based space game where the player controls a rocket and navigates from a launch pad to a landing pad while avoiding obstacles. The game features simple but challenging 2D movement mechanics in a 3D space environment.
+**CyberNova Rise** is a 3D Unity-based space game where the player controls a rocket and navigates from a launch pad to a landing pad while avoiding obstacles. The game features simple but challenging 2D movement mechanics in a 3D space environment.
 
 ---
 
@@ -42,45 +42,53 @@ https://github.com/user-attachments/assets/826d84a0-6123-4a25-a8df-ad76553763a7
 
 ---
 
-## 🚀 How to Play
+## 🕹️ How to Play
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Saad-Manda/Rocket-Booster.git
+You can test and play the game in the following ways:
 
-2. Open the project in Unity 6.
+1. **🌐 Play Online (Unity Play)**  
+   👉 [Play CyberNova Rise on Unity Play](https://play.unity.com/en/games/cd40a436-5871-4b54-a8ec-d87434749baf/cybernova-rise)
 
-3. Hit **Play** to test in the editor.
-   - `File > Build Settings > Build` to generate a playable `.exe`.
+2. **Play in Unity Editor**  
+   - Clone this repository.
+   - Open the project in **Unity 6**.
+   - Hit **Play** in the editor.
+
+3. **Using Builds**
 
 ## 📦 Builds
-You can find the latest `.exe` build of the game in the [**Builds**](./Builds.zip).
-To run the game:
+You can find the latest builds of the game in the [**Builds**](./Builds) folder:
 
-- Unzip the folder.
-- Open the `.exe` file.
+- **Windows `.exe` Build**
+- **WebGL Build** (for browser play)
 
-> ⚠️ **Note**: You might see a warning from **Windows Defender SmartScreen** like  
+### 🖥️ Windows (.exe)
+
+To run the Windows build:
+1. Unzip the folder (if using the compressed version).
+2. Open the `.exe` file.
+
+> ⚠️ **Note**: You might see a warning from **Windows Defender SmartScreen** saying  
 > *"Windows protected your PC"*.  
-> This happens because the app is not signed with a verified certificate (common for indie devs).
+> This happens because the game is not digitally signed (common for indie games).
 >
-> To run the game anyway:
+> To bypass it:
 > - Click **More info**
 > - Then click **Run anyway**
 
-### 🐢 Performance Note
-You may experience some lag while running the `.exe`:
-- The build is not yet fully optimized.
-- The game runs with a fixed resolution and no graphic settings.
-- Defender sandboxing or lower-end hardware can also affect performance.
+### 🌐 WebGL (Browser Build)
 
-> 💡 **Tip**:  
-> For the smoothest experience, it's recommended to **open the project in Unity and build it yourself**, especially if you're using a development machine or want better performance.
-> 
-> This also ensures Unity optimizes the build for your system configuration.
+The WebGL version of the game is available in the [`./Builds/Web`](./Builds/Web) folder.
 
-Improvements will be made in future updates.
+> 💡 **Note**: To run the WebGL version locally, you must serve it using a local web server.  
+> Opening `index.html` directly from your file explorer (file:// protocol) may not work in some browsers.
 
+#### 👉 Local Hosting Options:
+- **VS Code Live Server Extension**
+- `python3 -m http.server`
+- `npx http-server`
+
+---
 ## 🪐 License
 - This project is licensed under the [MIT License](LICENSE).
 
